@@ -39,19 +39,19 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "24495656")
-API_HASH  = os.environ.get("API_HASH", "61afcf68c6429714dd18acd07f246571")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8040014845:AAHAo3zgpikp-4j2PLQofMxSwtoOdQKTQLg") 
+API_ID    = os.environ.get("API_ID", "20838202")
+API_HASH  = os.environ.get("API_HASH", "fde3e78e3256ae13e868b39088c83838")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7685126120:AAEG-s59bY_CU5weOeUNwRz1CXpO2_HYrU0") 
 
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
 # Constants
-OWNER_IDS = [5548106944]  # Replace with the actual owner user IDs
+OWNER_IDS = [7791967941]  # Replace with the actual owner user IDs
 
 cookies_file_path = "modules/cookies.txt"
 # Global variables
-log_channel_id = -1002383275509
-authorized_users = []
+log_channel_id = -1002467140938
+authorized_users = [7791967941]
 ALLOWED_CHANNEL_IDS = []
 my_name = "𝐊𝐔𝐍𝐀𝐋❤️"
 overlay = None 
